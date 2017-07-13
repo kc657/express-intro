@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "jul13 introduction class",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kc657/express-intro.git"
+  },
+  "author": "Kevin Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kc657/express-intro/issues"
+  },
+  "homepage": "https://github.com/kc657/express-intro#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
