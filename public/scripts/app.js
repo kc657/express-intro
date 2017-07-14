@@ -11,10 +11,11 @@ $(document).ready(function(){
 
  function handleSuccess(json) {
   var album = json;
+  var dogPic = '<img src="/imgs/corgi.jpg"/>'
   album.forEach(function(albums) {
     var artistName = albums.artist
     var albumName = albums.title
-    $('.albums').append(`<li>${artistName} -- ${albumName}`)
+    $('.albums').append(dogPic + `<li>${artistName} -- ${albumName}</li>` )
   });
  }
 
